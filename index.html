@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=NombreDeLaFuente:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Banner Section -->
+    <section class="banner">
+        <picture>
+            <source srcset="cybermonday_date.svg" media="(min-width: 1024px)">
+            <source srcset="cybermonday_date.svg" media="(min-width: 768px)">
+            <img src="cybermonday_date.svg" alt="Cyber Event Banner">
+        </picture>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <h2>El evento comienza en:</h2>
+        <div id="timer">
+            <!-- Reloj de cuenta regresiva -->
+            <span id="days">00</span> días
+            <span id="hours">00</span> hrs
+            <span id="minutes">00</span> min
+            <span id="seconds">00</span> seg
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq-item">
+            <h3>¿Cuál es la duración del evento?</h3>
+            <p>El evento durará hasta las 23:59 del 6 de noviembre.</p>
+        </div>
+        <!-- Añadir más preguntas frecuentes según necesidad -->
+    </section>
+
+    <!-- Subscription Section -->
+    <section class="subscription">
+        <h2>¡Suscríbete para recibir novedades!</h2>
+        <form id="subscriptionForm">
+            <input type="email" name="email" placeholder="Ingresa tu correo" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

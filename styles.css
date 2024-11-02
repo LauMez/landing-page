@@ -1,0 +1,33 @@
+:root {
+    --color-primary: #0055ff;
+    --color-secondary: #ffa500;
+    --color-text: #333;
+    --font-family: 'NombreDeLaFuente', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.countdown, .faq, .subscription {
+    text-align: center;
+    padding: 2rem;
+}
+
+.faq-item h3 {
+    color: var(--color-primary);
+}
+
+button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
